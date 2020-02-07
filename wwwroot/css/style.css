@@ -1,0 +1,43 @@
+*{
+    vertical-align: top;
+    text-align: center;
+    color: rgb(92, 32, 89);
+    font-family: 'Raleway', sans-serif;
+}
+.home_blocks{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: cornsilk;
+    
+}
+img.me{
+    height: 200px;
+    display: inline-block;
+}
+.projects{
+    overflow-y: scroll;
+    width: 700px;
+    height: 300px;
+    margin-left: 400px;
+    border: darkblue solid 1px;
+}
+.projects_content{
+    display: inline-block;
+    width: 600px;
+}
+.projects_img{
+    display: inline-block;
+    width: 100px;
+    border: darkblue solid 1 px;
+}
+.one_project1{
+    display: inline-block;
+    width: 150px;
+}
+.one_project{
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+
+}

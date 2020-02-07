@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>@ViewBag.Contact</h1>
+
+    <div class = header>
+        <p><a href="/">Home</a> | <a href="projects">Project</a> | <a href="contact">Contact</a></p>
+    </div>
+    <h3>Contact me!</h3>
+    <div class = "home_blocks">
+        <form action = "/message">
+            <label for="name">Name</label><br>
+            <input type = "text" name = "name"><br>
+            <label for="email">Email</label><br>
+            <input type = "text" name = "email"><br>
+            <label for="message">Message</label><br>
+            <textarea rows="4" cols="20" name = "message"></textarea><br>
+            <p><button>Send</button></p><br>
+        </form>
+    </div>
+</body>
+</html>
